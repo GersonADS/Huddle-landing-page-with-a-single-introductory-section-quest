@@ -39,7 +39,8 @@ h1
 .header
 img
 {
-    width: 210px;
+    min-width: 50px;
+    max-width: 210px;
     margin-left: -22px;
 }
 
@@ -145,6 +146,17 @@ h1
  color: #fff;
  font-size: 1.1rem;
  height: 40px;
+ cursor: pointer;
+ transition: 0.3s ease-in-out;
+}
+
+.container
+.main
+.footer
+.icon:hover
+{
+    border:1px solid var(--s-magenta);
+    color: var(--s-magenta);
 }
 
 

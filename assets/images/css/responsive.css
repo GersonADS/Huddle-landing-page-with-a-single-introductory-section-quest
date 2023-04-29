@@ -1,0 +1,94 @@
+@media (max-width: 1280px) {
+  .container 
+  .main 
+  {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: aquamarine url("../bg-mobile.svg");
+    height: 100vh;
+    padding-inline: 50px;
+  }
+
+  .container 
+  .main 
+  .header 
+  {
+    align-self: flex-start;
+  }
+
+  .container 
+  .main 
+  .hero 
+  {
+    flex-direction: column;
+    background: red;
+  }
+
+  
+  .container
+  .main
+  .hero
+  img
+  {
+    width: 300px;
+  }
+
+  .container 
+  .main 
+  .hero 
+  .info-section 
+  {
+  text-align: center;  
+  padding: 0;
+  margin-top: -10px;
+  }
+
+  .container 
+  .main 
+  .hero 
+  .info-section 
+  h1
+  {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .container 
+  .main 
+  .hero 
+  .info-section 
+  p
+  {
+    padding-top: 0;
+    font-size: 1rem;
+  }
+
+  .container
+  .main
+  .hero
+  .info-section
+  .btn
+  {
+    width: 150px;
+    height: 40px;
+    font-size: .7rem;
+  }
+  
+  .container 
+  .main 
+  .footer 
+  {
+    background-color: rosybrown;
+  }
+
+  .container
+  .main
+  .icon
+  {
+    height: 5px;
+    width: 5px;
+  }
+
+}
