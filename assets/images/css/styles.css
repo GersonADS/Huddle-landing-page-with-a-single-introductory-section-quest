@@ -1,12 +1,13 @@
 body 
 {
   font-family: "Open Sans", sans-serif;
+  background: var(--p-violet);
 }
 
 h1 
 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.56rem;
   color: white;
 }
 
@@ -14,15 +15,18 @@ h1
 p
 {
     font-size: 1.050rem;
+    color: #fff;
 }
 
 .container
 {
-    background:#333;
+    background:var(--p-violet) url('../bg-mobile.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 30px; 
+    padding: 45px 30px; 
     height: 100%;
 }
 
@@ -32,7 +36,6 @@ p
    display: flex;
    gap: 40px;
    flex-flow: column wrap;
-   background: greenyellow;
    width: 100%;
 }
 
@@ -42,7 +45,6 @@ p
 {
     display: flex;
     justify-content: flex-start;
-    background: orange;
 }
 
 .main
@@ -59,9 +61,8 @@ img
  display: flex;
  flex-flow: column wrap;
  justify-content: center;
- gap: 10px;
- text-align: center;
- background:orangered;   
+ gap: 20px;
+ text-align: center; 
 }
 
 
@@ -69,7 +70,7 @@ img
 .middle-section
 img
 {
-    width: 100%;
+    width: 98%;
 }
 
 
@@ -80,7 +81,8 @@ img
 {
     display: flex;
     flex-flow: column wrap;
-    gap: 10px;
+    margin-top: 40px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -117,7 +119,6 @@ img
     padding: 1rem;
     gap: 15px;
     justify-content: center;
-    background-color: blueviolet;
 }
 
 .main
