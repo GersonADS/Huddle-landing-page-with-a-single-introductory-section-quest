@@ -68,7 +68,7 @@ margin-left: -5px;
 .main
 .info-section
 {
-    margin-top: -100px;
+    margin-top: -65px;
 }
 
 .container
@@ -87,6 +87,7 @@ h1
     padding-right:5px;
     margin-top: 22px;
     font-size: 1.14rem;
+    padding-bottom: 19px;
     background-color: red;
 }
 
@@ -97,6 +98,8 @@ h1
 {
     padding: 1rem;
     width: 200px;
+    height: 60px;
+    font-size: 1.3rem;
     border-radius: 2rem;
 }
 
