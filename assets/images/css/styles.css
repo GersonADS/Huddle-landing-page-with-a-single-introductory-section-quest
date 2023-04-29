@@ -22,8 +22,8 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px; 
-    height: 100vh;
+    padding: 20px 30px; 
+    height: 100%;
 }
 
 
@@ -49,7 +49,7 @@ p
 .header
 img
 {
-    width: 150px;
+    width: 120px;
 }
 
 
@@ -94,8 +94,20 @@ img
     border-radius: 1rem;
     background: white;
     border: 1px solid white;
+    cursor: pointer;
     color: var(--p-violet);
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.274);
+}
+
+.main
+.middle-section
+.info-section
+.btn:hover
+{
+    background: var(--s-magenta);
+    border: 1px solid var(--s-magenta);
+    color: white;
+    transition: 0.3s ease-in-out;
 }
 
 .main
