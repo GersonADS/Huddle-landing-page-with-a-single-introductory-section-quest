@@ -13,7 +13,7 @@ h1
 
 p
 {
-    font-size: 1.1rem;
+    font-size: 1.050rem;
 }
 
 .container
@@ -81,6 +81,21 @@ img
     display: flex;
     flex-flow: column wrap;
     gap: 10px;
+    align-items: center;
+}
+
+.main
+.middle-section
+.info-section
+.btn
+{
+    width: 200px;
+    padding: .6rem;
+    border-radius: 1rem;
+    background: white;
+    border: 1px solid white;
+    color: var(--p-violet);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.274);
 }
 
 .main
@@ -100,8 +115,18 @@ img
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aliceblue;
+    border: 1px solid white;
+    color: white;
     width: 30px;
     height: 30px;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.main
+.footer
+.icon:hover
+{
+    color:var(--s-magenta);
+    border: 1px solid var(--s-magenta);
 }
