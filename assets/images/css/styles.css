@@ -1,14 +1,14 @@
 body 
 {
-  font-family: "Open Sans", sans-serif;
-  background: var(--p-violet);
+    font-family: "Open Sans", sans-serif;
+    background: var(--p-violet);
 }
 
 h1 
 {
-  font-family: "Poppins", sans-serif;
-  font-size: 1.56rem;
-  color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.56rem;
+    color: white;
 }
 
 
@@ -18,14 +18,32 @@ p
     color: #fff;
 }
 
+.container,
+.main,
+.header,
+.middle-section,
+.info-section,
+.footer,
+.icon
+{
+    display: flex;
+}
+
+.container,
+.main
+.footer
+.icon
+{
+    align-items: center;
+    justify-content: center;
+}
+
+
 .container
 {
     background:var(--p-violet) url('../bg-mobile.svg');
-    background-size: contain;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-size: contain;
     padding: 45px 30px; 
     height: 100%;
 }
@@ -33,17 +51,15 @@ p
 .container
 .main
 {
-   display: flex;
-   gap: 40px;
-   flex-flow: column wrap;
-   width: 100%;
+    gap: 40px;
+    flex-flow: column wrap;
+    width: 100%;
 }
 
 
 .main
 .header
 {
-    display: flex;
     justify-content: flex-start;
 }
 
@@ -58,11 +74,10 @@ img
 .main
 .middle-section
 {
- display: flex;
- flex-flow: column wrap;
- justify-content: center;
- gap: 20px;
- text-align: center; 
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center; 
 }
 
 
@@ -75,12 +90,10 @@ img
 }
 
 
-
 .main
 .middle-section
 .info-section
 {
-    display: flex;
     flex-flow: column wrap;
     margin-top: 40px;
     gap: 30px;
@@ -116,7 +129,6 @@ img
 .main
 .footer
 {
-    display: flex;
     padding: 1rem;
     gap: 15px;
     justify-content: center;
@@ -126,9 +138,6 @@ img
 .footer
 .icon
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: 1px solid white;
     color: white;
     width: 35px;

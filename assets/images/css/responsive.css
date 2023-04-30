@@ -7,9 +7,9 @@
 
     .container
     {
-        background:fixed no-repeat url('../bg-desktop.svg');
-        background-size:contain;
+        background: url('../bg-desktop.svg');
         height: 100vh;
+        background-repeat: no-repeat;
     }
 
     .container
