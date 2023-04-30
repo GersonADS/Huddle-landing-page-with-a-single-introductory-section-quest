@@ -30,7 +30,7 @@ p
     height: 100%;
 }
 
-
+.container
 .main
 {
    display: flex;
@@ -71,6 +71,7 @@ img
 img
 {
     width: 98%;
+
 }
 
 
