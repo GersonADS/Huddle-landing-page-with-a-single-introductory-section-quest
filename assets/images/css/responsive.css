@@ -79,9 +79,9 @@
     .info-section
     .btn
     {
-    padding: 1.2rem;
-    font-size: 1.2rem;
-    border-radius: 2rem;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        border-radius: 2rem;    
     }
 
     .main
@@ -89,5 +89,7 @@
     {
         background-color: aquamarine;
         justify-content: flex-end;
+        height: 50px;
+        padding: 0;
     }
 }
